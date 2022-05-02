@@ -1,0 +1,12 @@
+---
+:id: 97212802
+:submitters:
+- :name: Scarlett Nguyen
+  :email: snguyeen@uw.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2021-10-30 05:27:17.798781000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2021-10-29 22:27:17.798781000 Z
+:status: processed
+:score: 42.0

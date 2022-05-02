@@ -1,0 +1,58 @@
+Name: Scarlett Nguyen
+CSE 160
+Homework 2
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file and your modified
+dna_analysis.py program.
+
+
+Problem 2:
+GC-content: 0.43059987061138255
+
+Problem 3:
+
+a) What happened was that I received an error message saying name 'gc_count' is not defined.
+That is because I commented out that line used to declare and initialize the variable earlier, creating a bug to the 
+program when I try to use that variable later as the program is 'confused' and non deterministic about what 
+value to use for that variable to produce the final result.
+b) What happened was that I received an error message saying name 'nucleotides' is not defined.
+The reason is similar to a). We can see that'nucleotides' used in the for loop later when the variable itself
+was never initialized as I commented out the line that assigns value to it (nucleotides = filename_to_string(filename))
+
+Problem 4:
+AT-content: 0.5694001293886175
+
+Problem 5:
+G count: 5738773
+C count: 5879128
+A count: 7701287
+T count: 7661547
+Sum of G+C+A+T counts: 26980735
+
+Problem 6: 
+Q: In your answers.txt file, state which .fastq file(s) and which quantities differ.  
+Write a short paragraph that explains why these differ.
+The quantities differ for all files except for the test-small.fastq. Specifically, the Sum of G+C+A+T 
+counts is different than Total Count and Length of Nucleotides. That is because in those files (except
+test-small), there are letters besides G, C, A, and T (e.g. I saw N in one of the files), making the 
+values of total count and length of nucleotieds higher than sum_counts as it only includes 4 types of 
+nucleotides (G,C,A,T) and not the other(s).
+
+Examples. sample_1.fastq
+Sum of G+C+A+T counts: 26980735
+Total count: 27000000
+Length of nucleotides: 27000000
+
+Problem 7:
+AT/GC Ratio: 1.3223416174746196
+
+Problem 8:
+GC CLassification: moderate GC content
+
+Collaboration: Worked on it independently 
+
+...
